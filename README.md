@@ -1,2 +1,2 @@
 # LeetPreparation
-Limala Leetcode prepa
+Limala Leetcode preparation
