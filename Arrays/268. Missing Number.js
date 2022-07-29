@@ -1,5 +1,5 @@
 /**
- *  O(1) time O(1) space
+ *  O(n) time O(1) space
  *  Link : https://leetcode.com/problems/missing-number/
  */
  var missingNumber = function(nums) {
