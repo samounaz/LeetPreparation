@@ -1,0 +1,17 @@
+/**
+ *  O(n) time O(n) space
+ *  Link : https://leetcode.com/problems/number-of-good-pairs/
+ */
+ var numIdenticalPairs = function(nums) {
+    let counter = 0;
+    let map = {};
+    for(let num of nums) {
+        if(map[num]) {
+            counter += map[num];
+            map[num]++;
+        } else {
+            map[num] = 1;
+        }
+    }
+    return counter;
+};
